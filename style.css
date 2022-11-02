@@ -140,11 +140,11 @@ li > * {
   display: none;
 }
 
-.main-element__item.editMode input[type="text"] {
+.main-element__item.main-element__item_edit input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.main-element__item.editMode label {
+.main-element__item.main-element__item_edit label {
   display: none;
 }
