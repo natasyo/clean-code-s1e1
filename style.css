@@ -71,7 +71,7 @@ h3,
   margin: 0;
   text-transform: uppercase;
 }
-input[type="text"] {
+.field {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -83,7 +83,7 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-input[type="text"]:focus {
+.field:focus {
   color: #333;
 }
 /* New Task */
@@ -105,7 +105,7 @@ input[type="text"]:focus {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+.main-element__item > * {
   vertical-align: middle;
 }
 .main-element__check {
